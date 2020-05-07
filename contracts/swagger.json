@@ -1,7 +1,7 @@
 {
   "openapi" : "3.0.0",
   "servers" : [ {
-    "description" : "SwaggerHub API Auto Mocking Server",
+    "description" : "SwaggerHub API Auto Mocking",
     "url" : "https://virtserver.swaggerhub.com/guibirow/OAuth2/1.0.0"
   } ],
   "info" : {
@@ -29,6 +29,17 @@
         "summary" : "Server heartbeat operation",
         "description" : "This operation shows how to override the global security defined above, as we want to open it up for all users.",
         "security" : [ ],
+        "responses" : {
+          "200" : {
+            "description" : "OK"
+          }
+        }
+      }
+    },
+    "/svc" : {
+      "get" : {
+        "summary" : "example operation",
+        "description" : "This is an example operation.",
         "responses" : {
           "200" : {
             "description" : "OK"
