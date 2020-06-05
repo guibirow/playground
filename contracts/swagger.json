@@ -61,5 +61,8 @@
         }
       }
     }
-  }
+  },
+  "security" : [ {
+    "implicit" : [ "read", "write" ]
+  } ]
 }
