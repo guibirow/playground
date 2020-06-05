@@ -46,21 +46,7 @@
     }
   },
   "components" : {
-    "schemas" : { },
-    "securitySchemes" : {
-      "implicit" : {
-        "type" : "oauth2",
-        "flows" : {
-          "implicit" : {
-            "authorizationUrl" : "http://example.com/oauth/auth",
-            "scopes" : {
-              "write" : "allows modifying resources",
-              "read" : "allows reading resources"
-            }
-          }
-        }
-      }
-    }
+    "schemas" : { }
   },
   "security" : [ {
     "implicit" : [ "read", "write" ]
