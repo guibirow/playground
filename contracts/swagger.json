@@ -55,7 +55,8 @@
             "authorizationUrl" : "http://example.com/oauth/auth",
             "scopes" : {
               "write" : "allows modifying resources asd",
-              "read" : "allows reading resources"
+              "read" : "allows reading resources",
+              "delete" : "test"
             }
           }
         }
